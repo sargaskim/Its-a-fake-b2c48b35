@@ -1,6 +1,6 @@
 drop table planeten;
-drop database sterrenstelsel;
-CREATE DATABASE sterrenstelsel;
+-- drop database sterrenstelsel;
+-- CREATE DATABASE sterrenstelsel;
 USE sterrenstelsel;
 
 CREATE TABLE planeten (
@@ -45,6 +45,9 @@ where id = 7;
 update planeten
 set naam = 'Teenalp'
 where id = 7;
+
+delete from planeten
+where id =  7;
 
 SELECT * FROM planeten;
 
